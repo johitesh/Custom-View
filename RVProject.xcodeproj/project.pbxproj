@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		678F04BF1CB0626000833AB7 /* RVConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 678F04BE1CB0626000833AB7 /* RVConstant.m */; };
+		67FAFEDE1CAF0A13005037B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 67FAFEDD1CAF0A13005037B0 /* AppDelegate.m */; };
+		67FAFEE11CAF0A13005037B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 67FAFEE01CAF0A13005037B0 /* main.m */; };
+		67FAFEE31CAF0A13005037B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67FAFEE21CAF0A13005037B0 /* Assets.xcassets */; };
+		67FAFEE61CAF0A13005037B0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67FAFEE41CAF0A13005037B0 /* MainMenu.xib */; };
+		67FAFEEF1CAF0B72005037B0 /* RVCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 67FAFEEE1CAF0B72005037B0 /* RVCustomView.m */; };
+		67FAFEF21CAF0F44005037B0 /* RVWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67FAFEF11CAF0F44005037B0 /* RVWindowController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		678F04BD1CB0626000833AB7 /* RVConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVConstant.h; sourceTree = "<group>"; };
+		678F04BE1CB0626000833AB7 /* RVConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RVConstant.m; sourceTree = "<group>"; };
+		67FAFED91CAF0A13005037B0 /* RVProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RVProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67FAFEDC1CAF0A13005037B0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		67FAFEDD1CAF0A13005037B0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		67FAFEE01CAF0A13005037B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		67FAFEE21CAF0A13005037B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67FAFEE51CAF0A13005037B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		67FAFEE71CAF0A13005037B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67FAFEED1CAF0B72005037B0 /* RVCustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVCustomView.h; sourceTree = "<group>"; };
+		67FAFEEE1CAF0B72005037B0 /* RVCustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RVCustomView.m; sourceTree = "<group>"; };
+		67FAFEF01CAF0F44005037B0 /* RVWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVWindowController.h; sourceTree = "<group>"; };
+		67FAFEF11CAF0F44005037B0 /* RVWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RVWindowController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67FAFED61CAF0A13005037B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6738FE9D1CB19F87008C5198 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				67FAFEDC1CAF0A13005037B0 /* AppDelegate.h */,
+				67FAFEDD1CAF0A13005037B0 /* AppDelegate.m */,
+			);
+			name = Delegate;
+			sourceTree = "<group>";
+		};
+		6738FE9E1CB19F95008C5198 /* Window Controller */ = {
+			isa = PBXGroup;
+			children = (
+				67FAFEF01CAF0F44005037B0 /* RVWindowController.h */,
+				67FAFEF11CAF0F44005037B0 /* RVWindowController.m */,
+			);
+			name = "Window Controller";
+			sourceTree = "<group>";
+		};
+		6738FE9F1CB19FA7008C5198 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				678F04BD1CB0626000833AB7 /* RVConstant.h */,
+				678F04BE1CB0626000833AB7 /* RVConstant.m */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+		6738FEA01CB19FB6008C5198 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				67FAFEE21CAF0A13005037B0 /* Assets.xcassets */,
+				67FAFEE41CAF0A13005037B0 /* MainMenu.xib */,
+				67FAFEE71CAF0A13005037B0 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6738FEA11CB19FCE008C5198 /* Custom View */ = {
+			isa = PBXGroup;
+			children = (
+				67FAFEED1CAF0B72005037B0 /* RVCustomView.h */,
+				67FAFEEE1CAF0B72005037B0 /* RVCustomView.m */,
+			);
+			name = "Custom View";
+			sourceTree = "<group>";
+		};
+		67FAFED01CAF0A13005037B0 = {
+			isa = PBXGroup;
+			children = (
+				67FAFEDB1CAF0A13005037B0 /* RVProject */,
+				67FAFEDA1CAF0A13005037B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		67FAFEDA1CAF0A13005037B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67FAFED91CAF0A13005037B0 /* RVProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67FAFEDB1CAF0A13005037B0 /* RVProject */ = {
+			isa = PBXGroup;
+			children = (
+				6738FEA11CB19FCE008C5198 /* Custom View */,
+				6738FEA01CB19FB6008C5198 /* Resources */,
+				6738FE9F1CB19FA7008C5198 /* Constants */,
+				6738FE9E1CB19F95008C5198 /* Window Controller */,
+				6738FE9D1CB19F87008C5198 /* Delegate */,
+				67FAFEDF1CAF0A13005037B0 /* Supporting Files */,
+			);
+			path = RVProject;
+			sourceTree = "<group>";
+		};
+		67FAFEDF1CAF0A13005037B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				67FAFEE01CAF0A13005037B0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67FAFED81CAF0A13005037B0 /* RVProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67FAFEEA1CAF0A13005037B0 /* Build configuration list for PBXNativeTarget "RVProject" */;
+			buildPhases = (
+				67FAFED51CAF0A13005037B0 /* Sources */,
+				67FAFED61CAF0A13005037B0 /* Frameworks */,
+				67FAFED71CAF0A13005037B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RVProject;
+			productName = RVProject;
+			productReference = 67FAFED91CAF0A13005037B0 /* RVProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67FAFED11CAF0A13005037B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Hitesh;
+				TargetAttributes = {
+					67FAFED81CAF0A13005037B0 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 67FAFED41CAF0A13005037B0 /* Build configuration list for PBXProject "RVProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67FAFED01CAF0A13005037B0;
+			productRefGroup = 67FAFEDA1CAF0A13005037B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67FAFED81CAF0A13005037B0 /* RVProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67FAFED71CAF0A13005037B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67FAFEE31CAF0A13005037B0 /* Assets.xcassets in Resources */,
+				67FAFEE61CAF0A13005037B0 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67FAFED51CAF0A13005037B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67FAFEEF1CAF0B72005037B0 /* RVCustomView.m in Sources */,
+				678F04BF1CB0626000833AB7 /* RVConstant.m in Sources */,
+				67FAFEE11CAF0A13005037B0 /* main.m in Sources */,
+				67FAFEDE1CAF0A13005037B0 /* AppDelegate.m in Sources */,
+				67FAFEF21CAF0F44005037B0 /* RVWindowController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		67FAFEE41CAF0A13005037B0 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67FAFEE51CAF0A13005037B0 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		67FAFEE81CAF0A13005037B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		67FAFEE91CAF0A13005037B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		67FAFEEB1CAF0A13005037B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RVProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.RVProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		67FAFEEC1CAF0A13005037B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RVProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.RVProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67FAFED41CAF0A13005037B0 /* Build configuration list for PBXProject "RVProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67FAFEE81CAF0A13005037B0 /* Debug */,
+				67FAFEE91CAF0A13005037B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67FAFEEA1CAF0A13005037B0 /* Build configuration list for PBXNativeTarget "RVProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67FAFEEB1CAF0A13005037B0 /* Debug */,
+				67FAFEEC1CAF0A13005037B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67FAFED11CAF0A13005037B0 /* Project object */;
+}
