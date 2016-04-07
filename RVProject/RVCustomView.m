@@ -65,9 +65,14 @@ typedef enum visibleViewEdge: NSInteger {
 
 - (void) drawViewContents:(NSInteger)visibleEdge{
     CGContextRef context = self.currentContext;
-    CGFloat rc = (CGFloat)[self.colorWellColor redComponent];
-    CGFloat gc = (CGFloat)[self.colorWellColor greenComponent];
-    CGFloat bc = (CGFloat)[self.colorWellColor blueComponent];
+    CGFloat* components = (CGFloat*)CGColorGetComponents(self.colorWellColor.CGColor);
+    if(!components){
+        CGColorRef blackColor = [[NSColor greenColor] CGColor];
+        components = (CGFloat*)CGColorGetComponents(blackColor);
+    }
+    CGFloat rc = components[0];
+    CGFloat gc = components[1];
+    CGFloat bc = components[2];
     
     CGFloat borderThickness = [[[[NSApplication sharedApplication] mainWindow] windowController] borderThicknessValue];
     if(borderThickness){
